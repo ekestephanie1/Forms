@@ -1,0 +1,50 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+ 
+  }
+  body{
+    border: 40px solid rgb(17, 17, 66);
+  }
+  
+  .container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr;
+    
+    
+  }
+
+  .formInfo {
+    background-color: orange;
+    padding: 1rem;
+    font-size: 30px;
+    
+  }
+  
+  
+  
+  .formBody {
+    background-color: white;
+ padding: 1rem;
+
+  }
+.input{
+  display: grid;
+ 
+}
+input[type="text"],
+input[type="email"] {
+    padding: 10px; 
+    border: 2px solid #a09c9c; 
+    border-radius: 4px; 
+    width: 70%; 
+}
+
+input[type="submit"] {
+  width: 150px; 
+  height: 40px; 
+  background-color: rgb(18, 18, 63);
+  color: white;
+}
